@@ -51,12 +51,14 @@ def parse_front_matter(text):
     return meta, body
 
 
+COMMENT_RE = re.compile(r"<!--.*?-->", re.DOTALL)
+
+
 def first_heading_or_snippet(body):
+    body = COMMENT_RE.sub("", body)
     for line in body.splitlines():
         line = line.strip()
-        if line.startswith("## "):
-            heading = line[3:].strip()
-        if line and not line.startswith("#") and not line.startswith("-") and line != "":
+        if line and not line.startswith("#") and not line.startswith("-"):
             return line[:120]
     return ""
 
