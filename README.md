@@ -2,7 +2,7 @@
 
 A daily log of things I learn. One entry per day, organized by date, tagged by topic.
 
-**1 entries** so far.
+**1 entry** so far.
 
 ## How this works
 

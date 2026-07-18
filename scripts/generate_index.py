@@ -97,7 +97,8 @@ def build_readme(entries):
     lines.append("")
     lines.append("A daily log of things I learn. One entry per day, organized by date, tagged by topic.")
     lines.append("")
-    lines.append(f"**{total} entries** so far.")
+    plural = "entry" if total == 1 else "entries"
+    lines.append(f"**{total} {plural}** so far.")
     lines.append("")
     lines.append("## How this works")
     lines.append("")
