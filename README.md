@@ -13,7 +13,7 @@ A daily log of things I learn. One entry per day, organized by date, tagged by t
 
 ## Log
 
-- **[2026-07-19](2026/07-July/2026-07-19.md)** `meta` `git` — Set up this TIL repo: dated entries with tag front matter, a `til.sh` helper
+- **[2026-07-19](2026/07-July/2026-07-19.md)** `meta` `git` — My Goal is to finish this week with the following tasks suggest to me by claude:
 
 ## By topic
 
