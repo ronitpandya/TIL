@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "TIL: New Entry",
+      "type": "shell",
+      "command": "./til.sh new",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent" },
+      "runOptions": { "runOn": "folderOpen" }
+    },
+    {
+      "label": "TIL: Rebuild Index",
+      "type": "shell",
+      "command": "./til.sh index",
+      "problemMatcher": []
+    }
+  ]
+}

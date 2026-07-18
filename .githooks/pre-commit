@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Regenerate README.md index before every commit and include it automatically.
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+python3 "$ROOT/scripts/generate_index.py"
+git add "$ROOT/README.md"
